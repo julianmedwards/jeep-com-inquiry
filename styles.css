@@ -334,6 +334,12 @@ nav > div {
     .navbar-brand {
         max-width: 87px;
     }
+
+    .inquiry {
+        max-width: 768px;
+        margin: auto;
+    }
+
     #top-footer .footer-search {
         width: 50%;
     }

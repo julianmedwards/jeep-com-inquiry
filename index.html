@@ -28,195 +28,418 @@
     />
   </head>
   <body>
-    <nav id="nav" class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-      <div class="container-xxl g-0">
-        <a class="me-auto" href="#">
-          <img
-            class="navbar-brand ms-sm-2 ps-sm-1 ms-lg-3 ps-lg-0"
-            src="img/logos/logo-jeep.png"
-            alt="Jeep.com"
-          />
-        </a>
-        <ul class="dropdown-links navbar-nav flex-row">
-          <li
-            class="position-relative nav-item d-flex align-items-center fs-7 fw-bold collapsed px-2 px-sm-3 px-lg-0 px-xl-2"
-            href="#nav-vehicles"
-            data-bs-toggle="collapse"
-          >
-            <a class="nav-link text-uppercase"
-              >Vehicles<i
-                class="bi bi-chevron-down ms-1 ps-2 ms-lg-1 ps-lg-0 ms-xxl-1 ps-xxl-2"
-              ></i
-            ></a>
-          </li>
-          <li
-            class="position-relative d-none d-sm-flex fs-7 fw-bold collapsed nav-item align-items-center px-3 px-lg-0 px-xl-2"
-            href="#nav-shopping"
-            data-bs-toggle="collapse"
-          >
-            <a class="nav-link text-uppercase"
-              >Shopping Tools<i
-                class="bi bi-chevron-down ms-1 ps-2 ms-lg-1 ps-lg-0 ms-xxl-1 ps-xxl-2"
-              ></i
-            ></a>
-          </li>
-          <li
-            class="position-relative d-none d-md-flex fs-7 fw-bold collapsed nav-item align-items-center px-3 px-lg-0 px-xl-2"
-            href="#nav-capability"
-            data-bs-toggle="collapse"
-          >
-            <a class="nav-link text-uppercase"
-              >Capability<i
-                class="bi bi-chevron-down ms-1 ps-2 ms-lg-1 ps-lg-0 ms-xxl-1 ps-xxl-2"
-              ></i
-            ></a>
-          </li>
-          <li
-            class="position-relative d-none d-lg-flex fs-7 fw-bold nav-item collapsed align-items-center px-3 px-lg-0 px-xl-2"
-            href="#nav-jeep-life"
-            data-bs-toggle="collapse"
-          >
-            <a class="nav-link text-uppercase"
-              >JEEP® Life<i
-                class="bi bi-chevron-down ms-1 ps-2 ms-lg-1 ps-lg-0 ms-xxl-1 ps-xxl-2"
-              ></i
-            ></a>
-          </li>
-          <li
-            class="position-relative d-none d-lg-flex fs-7 fw-bold collapsed nav-item align-items-center px-3 px-lg-0 px-xl-2"
-            href="#nav-owners"
-            data-bs-toggle="collapse"
-          >
-            <a class="nav-link text-uppercase"
-              >Owners<i
-                class="bi bi-chevron-down ms-1 ps-2 ms-lg-1 ps-lg-0 ms-xxl-1 ps-xxl-2"
-              ></i
-            ></a>
-          </li>
-          <li
-            class="position-relative d-none d-lg-flex fs-7 fw-bold collapsed nav-item align-items-center px-3 px-lg-0 px-xl-2"
-          >
-            <a class="nav-link text-uppercase" href="#merchandise"
-              >Merchandise<i
-                class="bi bi-box-arrow-up-right ms-1 ps-2 ms-lg-1 ps-lg-0 ms-xxl-1 ps-xxl-2"
-              ></i
-            ></a>
-          </li>
-        </ul>
-        <button
-          class="navbar-toggler text-uppercase ms-2"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbar-toggler"
-        >
-          <span class="fs-7 ps-3">Menu</span>
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div
-          class="bg-white collapse navbar-collapse justify-content-end"
-          data-bs-parent="nav"
-          id="navbar-toggler"
-        >
-          <ul class="navbar-nav">
-            <li class="d-sm-none nav-item order-2 text-uppercase fs-7 fw-bold">
-              <a href="#nav-shopping" class="nav-link"
-                >Shopping Tools<i class="bi bi-plus-lg"></i
-              ></a>
-            </li>
-            <li class="d-md-none nav-item order-2 text-uppercase fs-7 fw-bold">
-              <a href="#nav-capability" class="nav-link"
-                >Capability<i class="bi bi-plus-lg"></i
-              ></a>
-            </li>
-            <li class="d-lg-none nav-item order-2 text-uppercase fs-7 fw-bold">
-              <a href="#nav-jeep-life" class="nav-link"
-                >JEEP&reg Life<i class="bi bi-plus-lg"></i
-              ></a>
-            </li>
-            <li class="d-lg-none nav-item order-2 text-uppercase fs-7 fw-bold">
-              <a href="#nav-owners" class="nav-link"
-                >Owners<i class="bi bi-plus-lg"></i
-              ></a>
-            </li>
-            <li class="d-lg-none nav-item order-2 text-uppercase fs-7 fw-bold">
-              <a href="#nav-merchandise" class="nav-link"
-                >Merchandise<i class="bi bi-chevron-right"></i
-              ></a>
-            </li>
+    <header>
+      <nav
+        id="nav"
+        class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark"
+      >
+        <div class="container-xxl g-0">
+          <a class="me-auto" href="#">
+            <img
+              class="navbar-brand ms-sm-2 ps-sm-1 ms-lg-3 ps-lg-0"
+              src="img/logos/logo-jeep.png"
+              alt="Jeep.com"
+            />
+          </a>
+          <ul class="dropdown-links navbar-nav flex-row">
             <li
-              class="position-relative nav-item d-lg-flex align-items-center order-3 order-lg-0 px-lg-1 px-xl-2"
+              class="position-relative nav-item d-flex align-items-center fs-7 fw-bold collapsed px-2 px-sm-3 px-lg-0 px-xl-2"
+              href="#nav-vehicles"
+              data-bs-toggle="collapse"
             >
-              <a href="#espanol" class="nav-link fs-7 close-spacing"
-                ><i
-                  class="bi bi-chat-right-text-fill nav-transp-icon left-icon"
+              <a class="nav-link text-uppercase"
+                >Vehicles<i
+                  class="bi bi-chevron-down ms-1 ps-2 ms-lg-1 ps-lg-0 ms-xxl-1 ps-xxl-2"
                 ></i
-                >Español</a
-              >
-            </li>
-            <li
-              class="position-relative nav-item d-lg-flex align-items-center order-1 order-lg-1 text-uppercase px-lg-1 px-xl-2"
-            >
-              <a
-                href="#shop"
-                class="nav-link d-xl-flex align-items-center fs-7 lh-sm fw-bolder close-spacing"
-                ><i class="bi bi-cart-fill nav-transp-icon left-icon"></i>Shop
-                Online<i class="bi bi-chevron-right d-lg-none"></i
               ></a>
             </li>
             <li
-              class="position-relative nav-item d-lg-flex align-items-center order-0 order-lg-2 text-uppercase px-lg-1 px-xl-2"
+              class="position-relative d-none d-sm-flex fs-7 fw-bold collapsed nav-item align-items-center px-3 px-lg-0 px-xl-2"
+              href="#nav-shopping"
+              data-bs-toggle="collapse"
             >
-              <a
-                href="#build"
-                class="nav-link d-xl-flex align-items-center fs-7 lh-sm fw-bolder close-spacing"
-                ><i
-                  class="bi bi-wrench-adjustable nav-transp-icon left-icon"
+              <a class="nav-link text-uppercase"
+                >Shopping Tools<i
+                  class="bi bi-chevron-down ms-1 ps-2 ms-lg-1 ps-lg-0 ms-xxl-1 ps-xxl-2"
                 ></i
-                >Build & Price<i class="bi bi-chevron-right d-lg-none"></i
+              ></a>
+            </li>
+            <li
+              class="position-relative d-none d-md-flex fs-7 fw-bold collapsed nav-item align-items-center px-3 px-lg-0 px-xl-2"
+              href="#nav-capability"
+              data-bs-toggle="collapse"
+            >
+              <a class="nav-link text-uppercase"
+                >Capability<i
+                  class="bi bi-chevron-down ms-1 ps-2 ms-lg-1 ps-lg-0 ms-xxl-1 ps-xxl-2"
+                ></i
+              ></a>
+            </li>
+            <li
+              class="position-relative d-none d-lg-flex fs-7 fw-bold nav-item collapsed align-items-center px-3 px-lg-0 px-xl-2"
+              href="#nav-jeep-life"
+              data-bs-toggle="collapse"
+            >
+              <a class="nav-link text-uppercase"
+                >JEEP® Life<i
+                  class="bi bi-chevron-down ms-1 ps-2 ms-lg-1 ps-lg-0 ms-xxl-1 ps-xxl-2"
+                ></i
+              ></a>
+            </li>
+            <li
+              class="position-relative d-none d-lg-flex fs-7 fw-bold collapsed nav-item align-items-center px-3 px-lg-0 px-xl-2"
+              href="#nav-owners"
+              data-bs-toggle="collapse"
+            >
+              <a class="nav-link text-uppercase"
+                >Owners<i
+                  class="bi bi-chevron-down ms-1 ps-2 ms-lg-1 ps-lg-0 ms-xxl-1 ps-xxl-2"
+                ></i
+              ></a>
+            </li>
+            <li
+              class="position-relative d-none d-lg-flex fs-7 fw-bold collapsed nav-item align-items-center px-3 px-lg-0 px-xl-2"
+            >
+              <a class="nav-link text-uppercase" href="#merchandise"
+                >Merchandise<i
+                  class="bi bi-box-arrow-up-right ms-1 ps-2 ms-lg-1 ps-lg-0 ms-xxl-1 ps-xxl-2"
+                ></i
               ></a>
             </li>
           </ul>
+          <button
+            class="navbar-toggler text-uppercase ms-2"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbar-toggler"
+          >
+            <span class="fs-7 ps-3">Menu</span>
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="bg-white collapse navbar-collapse justify-content-end"
+            data-bs-parent="nav"
+            id="navbar-toggler"
+          >
+            <ul class="navbar-nav">
+              <li
+                class="d-sm-none nav-item order-2 text-uppercase fs-7 fw-bold"
+              >
+                <a href="#nav-shopping" class="nav-link"
+                  >Shopping Tools<i class="bi bi-plus-lg"></i
+                ></a>
+              </li>
+              <li
+                class="d-md-none nav-item order-2 text-uppercase fs-7 fw-bold"
+              >
+                <a href="#nav-capability" class="nav-link"
+                  >Capability<i class="bi bi-plus-lg"></i
+                ></a>
+              </li>
+              <li
+                class="d-lg-none nav-item order-2 text-uppercase fs-7 fw-bold"
+              >
+                <a href="#nav-jeep-life" class="nav-link"
+                  >JEEP&reg Life<i class="bi bi-plus-lg"></i
+                ></a>
+              </li>
+              <li
+                class="d-lg-none nav-item order-2 text-uppercase fs-7 fw-bold"
+              >
+                <a href="#nav-owners" class="nav-link"
+                  >Owners<i class="bi bi-plus-lg"></i
+                ></a>
+              </li>
+              <li
+                class="d-lg-none nav-item order-2 text-uppercase fs-7 fw-bold"
+              >
+                <a href="#nav-merchandise" class="nav-link"
+                  >Merchandise<i class="bi bi-chevron-right"></i
+                ></a>
+              </li>
+              <li
+                class="position-relative nav-item d-lg-flex align-items-center order-3 order-lg-0 px-lg-1 px-xl-2"
+              >
+                <a href="#espanol" class="nav-link fs-7 close-spacing"
+                  ><i
+                    class="bi bi-chat-right-text-fill nav-transp-icon left-icon"
+                  ></i
+                  >Español</a
+                >
+              </li>
+              <li
+                class="position-relative nav-item d-lg-flex align-items-center order-1 order-lg-1 text-uppercase px-lg-1 px-xl-2"
+              >
+                <a
+                  href="#shop"
+                  class="nav-link d-xl-flex align-items-center fs-7 lh-sm fw-bolder close-spacing"
+                  ><i class="bi bi-cart-fill nav-transp-icon left-icon"></i>Shop
+                  Online<i class="bi bi-chevron-right d-lg-none"></i
+                ></a>
+              </li>
+              <li
+                class="position-relative nav-item d-lg-flex align-items-center order-0 order-lg-2 text-uppercase px-lg-1 px-xl-2"
+              >
+                <a
+                  href="#build"
+                  class="nav-link d-xl-flex align-items-center fs-7 lh-sm fw-bolder close-spacing"
+                  ><i
+                    class="bi bi-wrench-adjustable nav-transp-icon left-icon"
+                  ></i
+                  >Build & Price<i class="bi bi-chevron-right d-lg-none"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <!-- Navbar Dropdowns -->
+          <div
+            class="bg-white col-12 collapse my-nav-dropdown"
+            data-bs-parent="#nav"
+            id="nav-vehicles"
+          >
+            <h3 class="m-0 p-2">Vehicle Stuff</h3>
+          </div>
+          <div
+            class="bg-white col-12 collapse my-nav-dropdown"
+            data-bs-parent="#nav"
+            id="nav-shopping"
+          >
+            <h3 class="m-0 p-2">Shopping Stuff</h3>
+          </div>
+          <div
+            class="bg-white col-12 collapse my-nav-dropdown"
+            data-bs-parent="#nav"
+            id="nav-capability"
+          >
+            <h3 class="m-0 p-2">Capability Stuff</h3>
+          </div>
+          <div
+            class="bg-white col-12 collapse my-nav-dropdown"
+            data-bs-parent="#nav"
+            id="nav-jeep-life"
+          >
+            <h3 class="m-0 p-2">Jeep Life Stuff</h3>
+          </div>
+          <div
+            class="bg-white col-12 collapse my-nav-dropdown"
+            data-bs-parent="#nav"
+            id="nav-owners"
+          >
+            <h3 class="m-0 p-2">Owners Stuff</h3>
+          </div>
         </div>
-        <!-- Navbar Dropdowns -->
-        <div
-          class="bg-white col-12 collapse my-nav-dropdown"
-          data-bs-parent="#nav"
-          id="nav-vehicles"
+      </nav>
+    </header>
+    <div class="wrapper bg-grey-dark">
+      <main class="container-xxl bg-white text-dark">
+        <form
+          class="inquiry row row-cols-1 row-cols-sm-auto justify-content-start g-0 gy-3 px-4 pt-4 pb-5"
         >
-          <h3 class="m-0 p-2">Vehicle Stuff</h3>
-        </div>
+          <div
+            class="d-flex flex-row flex-wrap align-items-center align-items-sm-start col-sm-6"
+          >
+            <label class="col-4 col-sm-12" for="first-name">First Name: </label>
+            <input
+              class="col-8 col-sm-11"
+              type="text"
+              name="first-name"
+              required
+              autofocus
+            />
+          </div>
+          <div
+            class="d-flex flex-row flex-wrap align-items-center align-items-sm-start col-sm-6"
+          >
+            <label class="col-4 col-sm-12" for="last-name">Last Name: </label>
+            <input
+              class="col-8 col-sm-11"
+              type="text"
+              name="last-name"
+              required
+            />
+          </div>
+          <div
+            class="d-flex flex-row flex-wrap align-items-center align-items-sm-start col-sm-6"
+          >
+            <label class="col-4 col-sm-12" for="email">Email: </label>
+            <input
+              class="col-8 col-sm-11"
+              type="email"
+              name="email"
+              placeholder="john@website.com"
+              required
+            />
+          </div>
+          <div
+            class="d-flex flex-row flex-wrap align-items-center align-items-sm-start col-sm-6"
+          >
+            <label class="col-4 col-sm-12" for="phone">Phone Number: </label>
+            <input
+              class="col-8 col-sm-11"
+              type="tel"
+              name="phone"
+              placeholder="123-456-789"
+              required
+            />
+          </div>
+          <div
+            class="d-flex flex-row flex-wrap align-items-center align-items-sm-start col-sm-6"
+          >
+            <label class="col-4 col-sm-12" for="dob">Date of Birth: </label>
+            <input class="col-8 col-sm-11" type="date" name="dob" required />
+          </div>
+          <div
+            class="d-flex flex-row flex-wrap align-items-center align-items-sm-start col-sm-11"
+          >
+            <label class="col-4 col-sm-12" for="address-1"
+              >Address Line 1:
+            </label>
+            <input
+              class="col-8 col-sm-11"
+              type="text"
+              name="address-1"
+              required
+            />
+          </div>
+          <div
+            class="d-flex flex-row flex-wrap align-items-center align-items-sm-start col-sm-11"
+          >
+            <label class="col-4 col-sm-12" for="address-2"
+              >Address Line 2:
+            </label>
+            <input class="col-8 col-sm-11" type="text" name="address-2" />
+          </div>
+          <div
+            class="d-flex flex-row flex-wrap align-items-center align-items-sm-start col-sm-6"
+          >
+            <label class="col-4 col-sm-12" for="city">City: </label>
+            <input class="col-8 col-sm-11" type="text" name="city" required />
+          </div>
+          <div
+            class="d-flex flex-row flex-wrap align-items-center align-items-sm-start col-sm-2"
+          >
+            <label class="col-4 col-sm-12" for="states">State: </label>
+            <select class="col-8 col-sm-6" name="states" required>
+              <option value="" selected disabled hidden></option>
+              <option value="CT">CT</option>
+              <option value="tx">TX</option>
+              <option value="wi">WI</option>
+            </select>
+          </div>
+          <div
+            class="d-flex flex-row flex-wrap align-items-center align-items-sm-start col-sm-4"
+          >
+            <label class="col-4 col-sm-12" for="zip">Zip Code: </label>
+            <input class="col-8 col-sm-11" type="text" name="zip" required />
+          </div>
+          <div
+            class="d-flex flex-row flex-wrap align-items-center align-items-sm-start col-sm-12"
+          >
+            <label class="col-4 col-sm-12" for="needs">Needs: </label>
+            <textarea class="col-8 col-sm-12" rows="3" name="needs"></textarea>
+          </div>
+          <div
+            class="d-flex flex-row flex-wrap align-items-center align-items-sm-start col-sm-8"
+          >
+            <label class="col-4 col-sm-12" for="models">Model: </label>
+            <select class="col-8 col-sm-8" name="models" id="models" required>
+              <option value="" selected disabled hidden></option>
+              <option value="wagoneer" id="wagoneer">JEEP® Wagoneer</option>
+              <option value="wrangler" id="wrangler">JEEP® Wrangler</option>
+            </select>
+          </div>
+          <div
+            id="customize"
+            class="d-none flex-row flex-wrap align-items-center align-items-sm-start col-sm-4"
+          >
+            <label class="col-4 col-sm-12" for="colors">Color: </label>
+            <select class="col-sm-6" name="colors" id="colors" required>
+              <option value="" selected disabled hidden></option>
+              <option value=""></option>
+              <option value=""></option>
+              <option value=""></option>
+            </select>
+          </div>
+          <div class="col-6 col-sm-6">
+            <img id="model-img" class="img-fluid" src="" />
+          </div>
+          <div
+            class="d-flex flex-row flex-wrap align-items-center align-items-sm-start align-items-sm-start col-6 col-sm-6"
+          >
+            <input
+              class="col-8 btn btn-secondary ms-auto me-2"
+              type="submit"
+              value="Submit"
+            />
+          </div>
+        </form>
+      </main>
+      <div id="top-footer" class="bg-grey-dark">
         <div
-          class="bg-white col-12 collapse my-nav-dropdown"
-          data-bs-parent="#nav"
-          id="nav-shopping"
+          class="container-xxl row row-cols-1 row-cols-lg-auto flex-lg-nowrap g-0 pb-5 justify-content-center align-items-center px-3 px-sm-4 px-md-5 py-lg-4 px-lg-0 mx-xxl-auto"
         >
-          <h3 class="m-0 p-2">Shopping Stuff</h3>
-        </div>
-        <div
-          class="bg-white col-12 collapse my-nav-dropdown"
-          data-bs-parent="#nav"
-          id="nav-capability"
-        >
-          <h3 class="m-0 p-2">Capability Stuff</h3>
-        </div>
-        <div
-          class="bg-white col-12 collapse my-nav-dropdown"
-          data-bs-parent="#nav"
-          id="nav-jeep-life"
-        >
-          <h3 class="m-0 p-2">Jeep Life Stuff</h3>
-        </div>
-        <div
-          class="bg-white col-12 collapse my-nav-dropdown"
-          data-bs-parent="#nav"
-          id="nav-owners"
-        >
-          <h3 class="m-0 p-2">Owners Stuff</h3>
+          <div
+            class="row row-cols-2 row-cols-sm-3 row-cols-lg-auto flex-lg-wrap gy-3 gx-3 px-1 px-sm-5 gx-lg-0 gy-lg-2 pt-lg-2 pb-lg-3 px-lg-0 my-xl-2 py-xxl-3"
+          >
+            <a
+              href="driveability"
+              class="text-white fs-6 lh-sm text-decoration-none pb-2 mb-1 pb-lg-0 mb-lg-0 me-lg-3 ps-lg-1 pe-lg-4 pb-lg-1"
+              ><img src="img/logos/driveability.jpg" alt="DriveAbility" /><i
+                class="bi bi-box-arrow-up-right"
+              ></i
+            ></a>
+            <a
+              href="countryselect"
+              class="text-white fs-6 lh-sm text-decoration-none pb-2 mb-1 pb-lg-0 mb-lg-0 me-lg-3 ps-lg-1 pe-lg-4 pb-lg-1"
+              ><i class="bi bi-globe2 left-icon"></i>Find Your
+              <span class="d-inline-block"
+                >Country<i
+                  class="bi bi-box-arrow-up-right right-icon"
+                ></i></span
+            ></a>
+            <a
+              href="contact"
+              class="text-white fs-6 lh-sm text-decoration-none pb-2 mb-1 pb-lg-0 mb-lg-0 me-lg-3 ps-lg-1 pe-lg-4 pb-lg-1"
+              >Contact Us<i class="bi bi-box-arrow-up-right right-icon"></i
+            ></a>
+            <a
+              href="sitemap"
+              class="text-white fs-6 lh-sm text-decoration-none pb-2 mb-1 pb-lg-0 mb-lg-0 me-lg-3 ps-lg-1 pe-lg-4 pb-lg-1"
+              >Site Map</a
+            >
+            <a
+              href="careers"
+              class="text-white fs-6 lh-sm text-decoration-none pb-2 mb-1 pb-lg-0 mb-lg-0 me-lg-3 ps-lg-1 pe-lg-4 pb-lg-1"
+              >Careers<i class="bi bi-box-arrow-up-right right-icon"></i
+            ></a>
+            <a
+              href="spanish"
+              class="text-white fs-6 lh-sm text-decoration-none pb-2 mb-1 pb-lg-0 mb-lg-0 me-lg-3 ps-lg-1 pe-lg-4 pb-lg-1"
+              >Español</a
+            >
+          </div>
+          <div
+            class="footer-search px-1 mt-4 px-sm-5 me-md-auto ms-md-5 px-md-0 m-lg-0 px-lg-0"
+          >
+            <div class="input-group">
+              <span class="input-group-text bg-white"
+                ><i class="bi bi-search"></i
+              ></span>
+              <input
+                type="search"
+                id="search"
+                class="form-control border-start-0"
+              />
+              <button
+                type="button"
+                class="btn btn-secondary fs-7 fw-bold close-spacing text-uppercase col-4"
+              >
+                Search
+              </button>
+            </div>
+          </div>
         </div>
       </div>
-    </nav>
-    <div class="wrapper">
-      <div class="container-xxl">
       <footer class="bg-dark">
         <div class="container-xxl px-2 px-sm-4 px-md-5 px-lg-0">
           <div
@@ -1270,5 +1493,6 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
+    <script src="scripts.js"></script>
   </body>
 </html>
